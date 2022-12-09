@@ -5,13 +5,14 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Getter @Setter
+@Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class CompanyRequest {
+public class GroupRequest {
 
-    private String companyName;
+    private String groupName;
 
-    private String locatedCountry;
+    private String image;
 
 }

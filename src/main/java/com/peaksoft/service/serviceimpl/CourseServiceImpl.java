@@ -47,6 +47,7 @@ public class CourseServiceImpl implements CourseService {
         Course course = courseConvertRequest.create(courseRequest);
         company.addCourse(course);
         course.setCompany(company);
+        courseRepository.save(course);
         return courseConvertResponse.create(course);
     }
 

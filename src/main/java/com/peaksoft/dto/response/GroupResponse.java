@@ -5,17 +5,21 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.time.LocalDate;
+
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class CompanyResponse {
+public class GroupResponse {
 
     private Long id;
 
-    private String companyName;
+    private String groupName;
 
-    private String locatedCountry;
+    private String image;
 
-    private int student;
+    private LocalDate dateOfStart ;
+
+    private int count;
 }

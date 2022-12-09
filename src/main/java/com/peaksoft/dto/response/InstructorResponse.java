@@ -9,13 +9,19 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class CompanyResponse {
+public class InstructorResponse {
 
     private Long id;
 
-    private String companyName;
+    private String firstName;
 
-    private String locatedCountry;
+    private String lastName;
 
-    private int student;
+    private String phoneNumber;
+
+    private String email;
+
+    private String specialization;
+
+    private int count;
 }

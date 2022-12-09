@@ -1,5 +1,6 @@
 package com.peaksoft.dto.response;
 
+import com.peaksoft.entity.Course;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -9,13 +10,11 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class CompanyResponse {
+public class LessonResponse {
 
     private Long id;
 
-    private String companyName;
+    private String lessonName;
 
-    private String locatedCountry;
-
-    private int student;
+    private Course course;
 }

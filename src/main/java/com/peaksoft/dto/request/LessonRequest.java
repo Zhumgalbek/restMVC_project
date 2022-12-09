@@ -5,13 +5,11 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Getter @Setter
+@Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class CompanyRequest {
+public class LessonRequest {
 
-    private String companyName;
-
-    private String locatedCountry;
-
+    private String lessonName;
 }
